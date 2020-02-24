@@ -1,0 +1,152 @@
+
+*{
+	font-family: Cambria, Cochin, 
+	Georgia, Times, 
+	'Times New Roman', serif;
+}
+
+.header,.bottom{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	background-color: rgba(102, 74, 37, 0.836);
+	
+}
+
+
+.btn,.showWinners, .produceNumbers{
+    width: 30%;
+    height: 4rem;
+	color: black;
+	margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.produceNumber{
+	margin-right: 50%;
+	border-radius: 10px;
+}
+
+.buttons{
+
+	width:70%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result{
+	margin-top: 10px;
+	width: 70%;
+	border: solid black;
+	box-shadow: 2px 2px 2px 2px blue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+
+.number{
+	width: 40px;
+	height: 40px;
+	display:inline-flex;
+	font-size: 15px;
+	margin: 5px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color:black;
+	border-radius: 100%;
+
+}
+
+.doneRottery{
+font-size: 20px;
+text-align: center;
+}
+
+.game{
+	width: 70%;
+	background-color: blanchedalmond;
+	border: solid black;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	border-width: 20px;
+}
+#demo{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+	@media only screen and (max-width: 900px){ 
+	body {
+	  background-color:rgb(181, 199, 196);
+	}
+	
+	.number{
+		width: 20px;
+		height: 20px;		
+		display:inline-flex;
+		font-size: 10px;
+		margin: 2px;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		background-color:black;
+		border-radius: 100%;
+	
+	}
+
+	.btn,.showWinners, .produceNumbers{
+
+		width: 30%;
+		height: 2rem;
+		color: white;
+		background-color: black;
+		margin: 10px;
+		border-radius: 4px;
+		font-size: 7px;
+		
+	}
+	.result{
+		margin-top: 5px;
+		width: 70%;
+		border: solid black;
+		box-shadow: 1px 1px 1px 1px blue;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+	}
+
+	.game{
+
+		width: 70%;
+		background-color: blanchedalmond;
+		border: solid black;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.header, .bottom{
+		text-align: center;
+		color: white;
+		font-size: 10px;
+		padding: 5px;
+		background-color: rgba(102, 74, 37, 0.836);
+		
+	}
+	
+	.doneRottery{
+	font-size: 10px;
+	text-align: center;
+	}
+	#demo{
+		font-size: 10px;
+		text-align: center;
+	}
+
+	
+  }
